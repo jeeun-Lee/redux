@@ -10,7 +10,7 @@ function Home({todos,addTodo}) {
     }
     function onSubmit(e){
         e.preventDefault();
-        console.log(text)
+      
         addTodo(text)
         setText("")
     }
